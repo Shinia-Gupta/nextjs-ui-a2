@@ -6,7 +6,7 @@
                 href="#start"
                 className="z-50 fixed -right-20 top-1/2 transform -translate-y-1/2 -rotate-90 bg-pink-500 text-white py-3 px-6 rounded-lg text-lg font-bold shadow-lg transition-transform hover:bg-pink-700 hover:translate-x-[-3px]"
             >
-                Let's Get Started
+                Let&apos;s Get Started
             </Link>
         );
     };

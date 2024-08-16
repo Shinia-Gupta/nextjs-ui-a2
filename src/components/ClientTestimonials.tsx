@@ -27,10 +27,10 @@ export default function ClientTestimonials() {
             <div className="bg-blue-950 text-white text-center flex flex-col justify-center items-center space-y-5 p-10">
               <div>
                 <h1 className="text-xl font-bold mt-10 mb-4">
-                  Checkout our Valued Client's Testimonials
+                  Checkout our Valued Client&apos;s Testimonials
                 </h1>
                 <p className="max-w-3xl">
-                  Clients' feedback is more precious than any other asset for our
+                  Clients&apos; feedback is more precious than any other asset for our
                   company. We believe in complete client satisfaction, hence we
                   discover their needs to deliver quality solutions. Listing a few
                   from 100s of great client testimonials.
