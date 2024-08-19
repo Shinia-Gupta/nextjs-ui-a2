@@ -5,9 +5,9 @@ import { Button } from './ui/button'
 
 function FaqForm() {
     return (
-        <div className="bg-blue-950 flex flex-col justify-center items-center rounded-lg p-1 ">  
+        <div className="bg-blue-950 flex flex-col justify-center items-center rounded-lg p-6">  
             <h1 className='text-white text-xl my-4 font-bold'>Connect With Us!</h1>
-            <h2 className='text-white text-sm max-w-md mb-4 text-center'>
+            <h2 className='text-white text-sm max-w-md mb-4 text-center px-2'>
                 Let&apos;s connect to present a cutting edge digital solution for your business.
             </h2> 
             <form className="max-w-sm mx-auto">

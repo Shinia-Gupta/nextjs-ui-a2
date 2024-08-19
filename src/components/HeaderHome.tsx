@@ -9,6 +9,7 @@ function HeaderHome() {
         { path: '/logos/c3.jpg', name: 'emito' },
         { path: '/logos/c4.jpg', name: 'codgrow' },
     ];
+
     return (
         <div className="h-[80vh] w-full bg-[url('/backgrounds/mobile-bg.jpeg')] lg:bg-[url('/backgrounds/home-bg.jpeg')] bg-cover bg-no-repeat relative p-32">
             <div className='absolute mx-20 left-1.5 top-2.5 transform-translate-x-1/2 lg:left-2.5 lg:top-2 flex flex-col items-center lg:items-start text-center lg:text-left'>
@@ -25,17 +26,17 @@ function HeaderHome() {
                                 <path fillRule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clipRule="evenodd" />
                             </svg>
                         ))}
-                    <p className='text-xs sm:text-sm md:text-base lg:text-lg text-zinc-800 mt-2 lg:mt-0'>&nbsp; happy customers rated us at 9/10</p>
+                        <p className='text-xs sm:text-sm md:text-base lg:text-lg text-zinc-800 mt-2 lg:mt-0'>&nbsp; happy customers rated us at 9/10</p>
                     </div>
                 </div>
-                <div className='flex flex-wrap items-center justify-between mt-8 '>
- {/* icons */}
- {companyIcons.map((icon, index) => (
-     <div key={index} className='mb-10 mr-4 '>
-         <Image src={icon.path} width={120} height={80} alt={icon.name} />
-     </div>
- ))}
-</div>
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mt-8'>
+                    {/* icons */}
+                    {companyIcons.map((icon, index) => (
+                        <div key={index} className='flex justify-center items-center mb-10'>
+                            <Image src={icon.path} width={120} height={80} alt={icon.name} />
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );
